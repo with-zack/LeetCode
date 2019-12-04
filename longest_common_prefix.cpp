@@ -35,6 +35,7 @@ public:
 
 int main()
 {
-	vector<string> input = { "flower", "fuck", "flow" };
-	cout << input[0] << endl;
+	vector<string> input = { "flower", "fuck", "f" };
+	Solution sl;
+	cout << sl.longestCommonPrefix(input) << endl;
 }
