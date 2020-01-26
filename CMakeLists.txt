@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
 project(LeetCode)
 add_executable(longest-common-prefix longest_common_prefix.cpp)
-add_executable(partition-array-for-maximum-sum partition-array-for-maximum-sum.cpp)
 add_executable(palindrome-number palindrome_number.cpp)
+add_executable(integer-to-roman integer-to-roman.cpp)
